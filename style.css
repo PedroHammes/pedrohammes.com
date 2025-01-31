@@ -5,3 +5,49 @@
 
     font-family: "Lexend";
 }
+
+body {
+    background-color: #eee;
+    color: #222;
+}
+
+header {
+    background-color: #0d204b;
+    border: 2px solid red;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: #eee;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+main {
+    border: 2px solid green;
+}
+
+#presentation img {
+    width: 180px;
+    height: 171px;
+    border-radius: 32px;
+}
+
+#presentation {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    border: 2px solid red;
+}
+
+footer {
+    border: 2px solid red;
+}
